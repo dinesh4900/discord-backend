@@ -25,7 +25,7 @@ const pusher = new Pusher({
   });
 
 //db config
-const mongoURI = 'mongodb+srv://admin:HelloWorld@discord-mern.j8h2s.mongodb.net/discordDB?retryWrites=true&w=majority'
+const mongoURI = 'mongoURL'
 
 mongoose.connect(mongoURI, {
     useCreateIndex: true,
